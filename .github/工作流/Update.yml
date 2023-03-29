@@ -32,7 +32,7 @@ jobs:
         retain_days: 1
         keep_minimum_runs: 0  
         
-    - name: Update
+    - name:Update
       run: |
 
         rm -rf ./luci-app-pushbot
