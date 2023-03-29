@@ -31,12 +31,8 @@ jobs:
       with:
         retain_days: 1
         keep_minimum_runs: 0  
-        
-<<<<<<< HEAD:.github/workflows/Update.yml
-     - name: Update
-=======
-    - name:Update
->>>>>>> eccac4a4dea2bdd86959554b1d0b7490c60d0faf:.github/工作流/Update.yml
+ 
+    - name: Update
       run: |
 
         rm -rf ./luci-app-pushbot
