@@ -21,12 +21,12 @@ jobs:
 
     - name: Set git
       run : |
-        git config --global user.email "jsjson@163.com"
-        git config --global user.name "xiangfeidexiaohuo"
+        git config --global user.email "498305637@qq.com"
+        git config --global user.name "rzwt"
         sudo timedatectl set-timezone "Asia/Shanghai"
 
     - name: Delete workflow runs
-      uses: xiangfeidexiaohuo/delete-workflow-runs@main
+      uses: rzwt/delete-workflow-runs@main
       continue-on-error: true
       with:
         retain_days: 1
